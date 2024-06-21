@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-kjnodes"
+version = "0.0.1"
+dependencies = [
+  "librosa",
+  "numpy",
+  "pillow>=10.3.0",
+  "scipy",
+  "color-matcher",
+  "matplotlib",
+  "huggingface_hub",
+]
+
+[project.entry-points."comfyui.extension_module"]
+ext_mod = "comfyui_kjnodes"
